@@ -1,0 +1,70 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import mnj from '../assets/manoj2.png';
+
+const Hero = () => {
+    return (
+        <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: 'easeOut' }}
+            viewport={{ once: true }}
+            id='home'
+            className='min-h-screen flex items-center pt-20 pb-16 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]'
+        >
+            <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between'>
+                {/* left */}
+                <div className='md:w-1/2 mb-10 md:mb-0'>
+                    <h1 className='text-4xl md:text-6xl font-bold mb-4'>
+                        Hi, I'm <span className='text-orange'>Manoj Kumar</span>
+                    </h1>
+
+                    <h2 className='text-2xl md:text-4xl font-semibold mb-6 typewriter'>
+                        Full Stack Developer
+                    </h2>
+
+                    <p className=''>
+                        I create stunning web experiences with modern technologies and innovative design.
+                    </p>
+                    <div class="flex space-x-4">
+
+                        <a href="#project"
+                            class="px-6 py-3 bg-orange rounded-lg font-medium hover:bg-orange-700 transition duration-300">
+                            View Work
+                        </a>
+
+                        <a href="#contact"
+                            class="px-6 py-3 border border-orange rounded-lg font-medium hover:bg-orange/20 transition duration-300 hover:decoration-orange-300">
+                            Contact Me
+                        </a>
+
+                    </div>
+                </div>
+                {/* right */}
+
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80">
+                        <div class="absolute inset-0 rounded-full bg-gradient-to-r from-orange to-pink opacity-70">
+                            <motion.img
+                                animate={{ y: [0, -20, 0] }}
+                                transition={{
+                                    duration: 4,
+                                    repeat: Infinity,
+                                    repeatType: "loop",
+                                    ease: "easeInOut"
+                                }}
+                                className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10'
+                                src={mnj}
+                                alt="Profile"
+
+                            />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </motion.div>
+    )
+}
+
+export default Hero
