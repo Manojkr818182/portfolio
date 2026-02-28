@@ -17,8 +17,7 @@ const Contacts = () => {
                     <span className='text-orange'> Touch</span>
                 </h2>
                 <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>
-                    Feel free to get in touch with me for collaboration, freelance projects, or full-time opportunities.
-                    I'm always open to discussing new ideas and exciting projects. Let’s build something amazing together!.
+                    Feel free to get in touch with me for collaboration, freelance projects, or full-time opportunities. I'm always open to discussing new ideas and exciting projects. Let’s build something amazing together!.
                 </p>
                     <div className="flex flex-col md:flex-row justify-center gap-12">
                         <div className='flex items-start'>
@@ -54,7 +53,7 @@ const Contacts = () => {
                     </div>
                     <div className='pt-4 text-center'>
                         <h3 className='text-lg font-semibold mb-4'>Follow me</h3>
-                        <div className="flex flex-col md:flex-row justify-center gap-12">
+                        <div className="flex  md:flex-row justify-center gap-12">
                             <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange hover:bg-orange hover:text-white transition duration-300'>
                                 <FaGithub />
                             </a>

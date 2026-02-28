@@ -1,7 +1,8 @@
 import fasteat from '../assets/fasteat.png';
 import hiddle from '../assets/hiddle.png';
 import timemust from '../assets/timemust.png';
-import lifeofme from '../assets/logo.png';
+import lifeofme from '../assets/lifeofme.png';
+import Offerapret from '../assets/offera.png'
 import { FaCloud, FaCode, FaDatabase, FaLightbulb, FaPaintBrush, FaReact, FaServer, FaTools } from "react-icons/fa";
 
 export const assets = {
@@ -65,32 +66,32 @@ export const skills = [
 export const projects = [
     {
         title: "FastEat",
-        description: "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        description: "FastEat is a food delivery app that allows users to quickly browse restaurants, order meals, and have food delivered to their doorstep. The app focuses on speed, convenience, and a smooth user experience for both customers and restaurant partners.",
         image: fasteat,
         tech: []
     },
     {
         title: "Hiddle",
-        description: "Bbbbbbbbbbbbbbbbbbbbbbbb",
+        description: "Hiddle facilitates connections between users based on mutual interests. Users can browse through profiles and express their preferences. When two users like each other, a match is formed, enabling further interaction through a chat.",
         image: hiddle,
         tech: []
     },
     {
-        title: "timemust",
-        description: "Cccccccccccccccccccccccc",
+        title: "TimeMust",
+        description: "TimeMust is a school bus management system that enables admins to manage multiple schools and bus assignments. Schools can add buses, drivers, and student/parent accounts, while parents can track buses in real time and make online payments for safe and convenient transportation management.",
         image: timemust,
         tech: []
     },
     {
         title: "LifeOfMe",
-        description: "Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        description: "This application enables users to plan and organize all aspects of their funeral, including ceremony details, guest lists, themes, and personalized gifts. Users can add family members, and the system generates a PDF wish certificate containing all their preferences to share with family members",
         image: lifeofme,
         tech: []
     },
     {
         title: "Offerapret",
-        description: "Bbbbbbbbbbbbbbbbbbbbbbbb",
-        image: fasteat,
+        description: "Oferapret is an online marketplace that connects homeowners in Romania with skilled tradespeople. Homeowners can post job requests with detailed requirements, while tradespeople can browse relevant opportunities and contact clients through calls, emails, or chat for efficient collaboration.",
+        image: Offerapret,
         tech: []
     },
 ]

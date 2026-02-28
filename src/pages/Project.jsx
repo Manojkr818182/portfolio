@@ -16,10 +16,9 @@ const Project = () => {
                 <h2 className='text-3xl font-bold text-center mb-4'>My
                     <span className='text-orange'>Projects</span>
                 </h2>
-                <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>A section of my recent work.</p>
+                <p className='text-gray-400 text-center max-w-2xl mx-auto mb-16'>A collection of real-world projects designed to solve practical problems, improve efficiency, and deliver measurable value through thoughtful design and robust development.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                {/* Project card */}
                 {
                     projects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
