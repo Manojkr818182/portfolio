@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaMapMarkerAlt, FaPhone, FaTwitter } from 'react-icons/fa';
 
 const Contacts = () => {
     return (
@@ -54,16 +54,16 @@ const Contacts = () => {
                     <div className='pt-4 text-center'>
                         <h3 className='text-lg font-semibold mb-4'>Follow me</h3>
                         <div className="flex  md:flex-row justify-center gap-12">
-                            <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange hover:bg-orange hover:text-white transition duration-300'>
+                            <a href="https://github.com/Manojkr818182" target='blank' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange hover:bg-orange hover:text-white transition duration-300'>
                                 <FaGithub />
                             </a>
 
-                            <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange hover:bg-orange hover:text-white transition duration-300'>
+                            <a href="https://www.linkedin.com/in/manoj-kumar-m818182/" target='blank' className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange hover:bg-orange hover:text-white transition duration-300'>
                                 <FaLinkedin />
                             </a>
 
                             <a href="#" className='w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-orange hover:bg-orange hover:text-white transition duration-300'>
-                                <FaGithub />
+                                <FaTwitter />
                             </a>
                         </div>
                     </div>
